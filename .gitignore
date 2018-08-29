@@ -1,1 +1,4 @@
+/public/*
+!/public/_headers
+!/public/_redirects
 # resources/_gen/ https://github.com/netlify/build-image/issues/183
