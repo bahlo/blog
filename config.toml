@@ -1,3 +1,15 @@
 baseURL = "https://arne.codes/"
 languageCode = "en-us"
 title = "Arne Bahlo"
+theme = "marked"
+copyright = "2018 Arne Bahlo"
+
+[[menu.main]]
+  name = "About"
+  url = "/about"
+[[menu.main]]
+  name = "Archives"
+  url = "/post/"
+[[menu.main]]
+  name = "RSS"
+  url = "/index.xml"

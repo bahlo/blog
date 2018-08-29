@@ -1,0 +1,12 @@
+name = "Marked"
+license = "MIT"
+licenselink = "https://github.com/bahlo/marked/blob/master/LICENSE"
+description = "A minimal theme with a colored touch"
+homepage = "https://github.com/bahlo/marked"
+tags = ["personal", "blog", "minimal", "color"]
+features = []
+min_version = "0.41"
+
+[author]
+  name = "Arne Bahlo"
+  homepage = "https://arne.codes"

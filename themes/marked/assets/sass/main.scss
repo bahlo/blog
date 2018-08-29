@@ -1,0 +1,153 @@
+$outer-width: 960px;
+$inner-width: 640px;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-size: border-box;
+}
+
+body {
+  font-family: Cardo, serif;
+  font-size: 20px;
+  color: #111;
+  -webkit-font-smoothing: antialiased;
+  line-height: 1.4;
+}
+
+.site {
+  width: $outer-width;
+  margin: 0 auto;
+}
+
+.header {
+  text-align: center;
+  padding: 50px 0;
+
+  &__heading {
+    @extend .marked;
+
+    font-size: 3em;
+    display: inline-block;
+    position: relative;
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+  }
+
+  &__nav {
+    padding: 20px;
+
+    ul {
+      list-style: none;
+    }
+
+    li {
+      display: inline-block;
+      margin: 0 .5em;
+    }
+
+    a {
+      color: #111;
+
+      &:hover {
+        text-decoration: none;
+      }
+    }
+  }
+}
+
+.article {
+  > * {
+    display: block;
+    width: $inner-width;
+    margin: .5em auto;
+  }
+
+  figure {
+    width: $outer-width;
+    margin: 1em auto;
+    max-height: 960px;
+
+    img {
+      max-width: 100%;
+    }
+  }
+
+  &__meta {
+    color: #ccc;
+    margin: .1em auto;
+  }
+
+  p a {
+    color: inherit;
+    text-decoration: none;
+    background: rgba(255, 255, 160, .75);
+    padding: 2px;
+
+    &:hover {
+      background: #f5f5f5;
+    }
+  }
+
+  &__heading {
+    margin-top: 0em;
+    font-size: 1.5em;
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+  }
+
+  h2, h3, h4, h5, h6 {
+    font-size: 1em;
+  }
+}
+
+.footer {
+  margin: 50px 0 0;
+  text-align: center;
+  padding: 50px 0;
+  color: #111;
+  font-size: .8em;
+  width: $inner-width; 
+  margin: 0 auto;
+}
+
+.list {
+  width: $inner-width;
+  margin: 0 auto;
+  margin-top: 2px;
+
+  &__link {
+    text-decoration: none;
+    color: inherit;
+  }
+
+  &__date {
+    color: #555;
+  }
+}
+
+.message {
+  text-align: center;
+  color: #555;
+}
+
+.marked {
+  &::after {
+    content: '';
+    display: block;
+    bottom: .1em;
+    left: -.25em;
+    width: 4.9em;
+    height: .5em;
+    background: #FFFFA0;
+
+    position: absolute;
+    z-index: -1;
+  }
+}

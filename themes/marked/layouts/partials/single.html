@@ -1,0 +1,12 @@
+<article class="article">
+  {{if eq .Type "post" }}
+  <span class="article__meta">
+    {{- .Date.Format (.Site.Params.dateFormat | default "2006-01-02") }}
+    &middot;
+    {{ div .FuzzyWordCount 256 -}}m
+  </span>
+  {{ end  }}
+  <h1 class="article__heading"><a href="{{ .Permalink }}">{{ .Title  }}</a></h1>
+  {{ .Content  }}
+</article>
+
