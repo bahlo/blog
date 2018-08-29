@@ -24,7 +24,7 @@
     margin: .1em auto;
   }
 
-  p a {
+  a {
     color: inherit;
 
     &:hover {
@@ -39,11 +39,21 @@
     a {
       color: inherit;
       text-decoration: none;
+
+      &:hover {
+        background: none;
+      }
     }
   }
 
   h2, h3, h4, h5, h6 {
     font-size: 1em;
+  }
+
+  ul {
+    li {
+      list-style: disc inside none;
+    }
   }
 }
 
