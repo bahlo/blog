@@ -13,4 +13,4 @@ I’m Arne Bahlo, a Full Stack Software Architect from Frankfurt, Germany. I’m
 GitHub:   [@bahlo](https://github.com/bahlo)  
 Mastodon: [@arne@ffm.social](https://ffm.social/@arne)  
 Birdsite: [@arnebahlo](https://twitter.com/arnebahlo)  
-Email:    <hey@arne.codes>  
+Email:    <hallo@arne.me>  
