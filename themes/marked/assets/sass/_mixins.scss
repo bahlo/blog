@@ -1,0 +1,10 @@
+@mixin responsive-width($width) {
+  width: $width;
+  // background: rgba(255, 0, 0, .25);
+
+  @media screen and (max-width: $width) {
+    // background: rgba(0, 255, 0, .25);
+    width: 100%;
+  }
+}
+

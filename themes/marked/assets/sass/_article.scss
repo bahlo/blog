@@ -1,0 +1,49 @@
+.article {
+  padding: 0 1em;
+
+  > * {
+    @include responsive-width($inner-width);
+
+    display: block;
+    margin: .5em auto;
+  }
+
+  figure {
+    @include responsive-width($outer-width);
+
+    margin: 1em auto;
+    max-height: 960px;
+
+    img {
+      max-width: 100%;
+    }
+  }
+
+  &__meta {
+    color: #ccc;
+    margin: .1em auto;
+  }
+
+  p a {
+    color: inherit;
+
+    &:hover {
+      background: rgba(255, 255, 160, .75);
+    }
+  }
+
+  &__heading {
+    margin-top: 0em;
+    font-size: 1.5em;
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+  }
+
+  h2, h3, h4, h5, h6 {
+    font-size: 1em;
+  }
+}
+
