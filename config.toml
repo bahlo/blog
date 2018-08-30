@@ -4,6 +4,10 @@ title = "Arne Bahlo"
 theme = "marked"
 copyright = "2018 Arne Bahlo"
 
+[params]
+  author = "Arne Bahlo"
+  description = "The personal website of Arne Bahlo"
+
 [[menu.main]]
   name = "About"
   url = "/about"
