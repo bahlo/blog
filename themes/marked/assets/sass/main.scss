@@ -1,5 +1,6 @@
 $outer-width: 960px;
 $inner-width: 640px;
+$yellow: #fff47d;
 
 @import "_mixins.scss";
 @import "_header.scss";
@@ -64,7 +65,7 @@ body {
     left: -.25em;
     width: 4.9em;
     height: .5em;
-    background: #FFFFA0;
+    background: $yellow;
 
     position: absolute;
     z-index: -1;
