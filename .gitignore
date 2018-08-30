@@ -1,4 +1,9 @@
 /public/*
 !/public/_headers
 !/public/_redirects
+!/public/apple-touch-icon.png
+!/public/favicon-16x16.png
+!/public/favicon-32x32.png
+!/public/safari-pinned-tab.svg
+!/public/favicon.ico
 # resources/_gen/ https://github.com/netlify/build-image/issues/183
