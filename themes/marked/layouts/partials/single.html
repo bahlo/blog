@@ -3,7 +3,18 @@
   <span class="article__meta">
     {{- .Date.Format (.Site.Params.dateFormat | default "2006-01-02") }}
     &middot;
-    {{ div .FuzzyWordCount 256 -}}m
+    {{ div .FuzzyWordCount 150 -}}m
+    {{ with .Params.tags }}
+    &middot;
+    {{ $len := len . }}
+    {{ range $i, $tag := . }}
+      <a href="/tags/{{ urlize $tag }}">{{ urlize $tag }}</a>
+      {{- $index := add $i 1 -}}
+      {{- if ne $index $len -}}
+      ,
+      {{- end }}
+    {{ end }}
+    {{ end }}
   </span>
   {{ end  }}
   <h1 class="article__heading"><a href="{{ .Permalink }}">{{ .Title  }}</a></h1>

@@ -3,6 +3,7 @@ languageCode = "en-us"
 title = "Arne Bahlo"
 theme = "marked"
 copyright = "2018 Arne Bahlo"
+PygmentsStyle = "github"
 
 [params]
   author = "Arne Bahlo"
