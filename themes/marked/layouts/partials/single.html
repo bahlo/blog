@@ -3,7 +3,7 @@
   <span class="article__meta">
     {{- .Date.Format (.Site.Params.dateFormat | default "2006-01-02") }}
     &middot;
-    {{ div .FuzzyWordCount 150 -}}m
+    {{ div .FuzzyWordCount 180 -}}m
     {{ with .Params.tags }}
     &middot;
     {{ $len := len . }}
