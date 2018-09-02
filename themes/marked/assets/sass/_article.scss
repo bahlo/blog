@@ -18,6 +18,18 @@
     img {
       max-width: 100%;
     }
+
+    &.image__right {
+      @include responsive-width($inner-width/2);
+      float: right;
+      padding-left: 1em;
+      margin: 0 auto;
+
+      @include responsive($inner-width) {
+        float: none;
+	padding-left: none;
+      }
+    }
   }
 
   &__meta {
@@ -58,11 +70,16 @@
 
   h2 {
     font-size: 1.3em;
-    margin-top: .7em;
   }
 
-  h3, h4, h5, h6 {
+  h3 {
     font-size: 1em;
+  }
+
+  h2, h3, h4, h5, h6 {
+    clear: both;
+    margin-top: .7em;
+    margin-bottom: 0;
   }
 
   ul {
