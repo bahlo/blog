@@ -118,6 +118,10 @@
     * {
       background: none !important;
     }
+
+    pre {
+      -webkit-text-size-adjust: none;
+    }
   }
 }
 
