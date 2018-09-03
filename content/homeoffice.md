@@ -1,10 +1,10 @@
 ---
-title: "HomeOffice"
+title: "Home Office"
 date: 2018-09-03T17:34:37+02:00
 draft: false
 ---
 
-To avoid confusion and manage expectations, here is how I do HomeOffice.
+To avoid confusion and manage expectations, here is how I do home office.
 
 ## Slack Status
 
