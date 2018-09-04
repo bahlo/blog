@@ -16,7 +16,8 @@ introduces a big problem: It mixes transport logic with business logic.
 This makes refactorings hard (just imagine switching your HTTP framework)
 and therefore forces you to make decisions about these kind of things
 before even starting the project.
-So when I started a project for a client recently, I decided to use the hexagonal architecture (aka _Ports and Adapters_) and so far I'm really happy.  
+So when I started a new project recently, I decided to use the hexagonal 
+architecture (aka _Ports and Adapters_) and so far I'm really happy.  
 Here's what I like about it:
 
 ### All dependencies point inward
@@ -57,8 +58,7 @@ Adapters_).
 ## A real-world example
 
 For this post let's just assume that we're building an API to manage an 
-inventory of some sort – it's still similar to the application I'm building
-for my client.
+inventory of some sort – it's still similar to the application I'm building.
 You should be able to list all items in the inventory and logged-in users 
 should have basic CRUD access.
 
