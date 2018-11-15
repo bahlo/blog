@@ -46,11 +46,15 @@
     }
   }
 
-  p a {
-    color: inherit;
+  p,
+  ul,
+  ol {
+    a {
+      color: inherit;
 
-    &:hover {
-      background: $yellow;
+      &:hover {
+        background: $yellow;
+      }
     }
   }
 
