@@ -6,7 +6,9 @@ draft: false
 
 Hey! 👋🏻
 
-I’m Arne Bahlo, a Full Stack Software Architect from Frankfurt, Germany. I’m interested in modern software architecture, all things Golang, Rust, modern Web and iOS development/ecosystem. In my free time I like to run 🏃🏻‍♂️ and play flag football 🏈. I go to church and am happily married.
+I’m Arne Bahlo, a Software Engineer from Frankfurt, Germany. 
+I’m interested in modern software architecture, all things Golang, Rust, 
+modern Web and iOS development/ecosystem. 
 
 ### You can find me here:
 

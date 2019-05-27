@@ -1,14 +1,3 @@
 {{ define "main" }}
-<section id="posts">
-  {{ $paginator := .Paginate (where .Pages "Type" "post") 10 }}
-  {{ range $paginator.Pages }}
-    {{ partial "single" . }}
-  {{ end }}
-
-  {{ if not $paginator.Pages }}
-  <div class="message">
-    <p>Oh no, it's empty.</p>
-  </div>
-  {{ end }}
-</section>
+  {{ partial "list" . }}
 {{ end }}
